@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60026" started-at="2020-06-24T07:21:36Z" finished-at="2020-06-24T07:22:36Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="31363" started-at="2020-06-24T07:21:36Z" finished-at="2020-06-24T07:22:07Z">
+      <class name="TestCase.hospitalName">
+        <test-method status="PASS" signature="testcaseRexl()[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="testcaseRexl" is-config="true" duration-ms="1062" started-at="2020-06-24T12:51:36Z" finished-at="2020-06-24T12:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method status="PASS" signature="driverconfig(java.lang.String)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="driverconfig" is-config="true" duration-ms="9613" started-at="2020-06-24T12:51:37Z" finished-at="2020-06-24T12:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method status="PASS" signature="createObject()[pri:1, instance:TestCase.hospitalName@13acb0d1]" name="createObject" duration-ms="64" started-at="2020-06-24T12:51:47Z" finished-at="2020-06-24T12:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:51:47Z" finished-at="2020-06-24T12:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createObject status=SUCCESS method=hospitalName.createObject()[pri:1, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnLocation()[pri:2, instance:TestCase.hospitalName@13acb0d1]" name="clickOnLocation" duration-ms="4330" started-at="2020-06-24T12:51:47Z" finished-at="2020-06-24T12:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLocation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:51:51Z" finished-at="2020-06-24T12:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnLocation status=SUCCESS method=hospitalName.clickOnLocation()[pri:2, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectLocation()[pri:3, instance:TestCase.hospitalName@13acb0d1]" name="selectLocation" duration-ms="332" started-at="2020-06-24T12:51:51Z" finished-at="2020-06-24T12:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocation -->
+        <test-method status="PASS" signature="clickOnHospitalTextBox()[pri:4, instance:TestCase.hospitalName@13acb0d1]" name="clickOnHospitalTextBox" duration-ms="2151" started-at="2020-06-24T12:51:51Z" finished-at="2020-06-24T12:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHospitalTextBox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:51:51Z" finished-at="2020-06-24T12:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectLocation status=SUCCESS method=hospitalName.selectLocation()[pri:3, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:51:54Z" finished-at="2020-06-24T12:51:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnHospitalTextBox status=SUCCESS method=hospitalName.clickOnHospitalTextBox()[pri:4, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectHospital()[pri:5, instance:TestCase.hospitalName@13acb0d1]" name="selectHospital" duration-ms="4270" started-at="2020-06-24T12:51:54Z" finished-at="2020-06-24T12:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHospital -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:51:58Z" finished-at="2020-06-24T12:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectHospital status=SUCCESS method=hospitalName.selectHospital()[pri:5, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnOpen()[pri:6, instance:TestCase.hospitalName@13acb0d1]" name="clickOnOpen" duration-ms="2191" started-at="2020-06-24T12:51:58Z" finished-at="2020-06-24T12:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOpen -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:00Z" finished-at="2020-06-24T12:52:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOpen status=SUCCESS method=hospitalName.clickOnOpen()[pri:6, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnArrow1()[pri:7, instance:TestCase.hospitalName@13acb0d1]" name="clickOnArrow1" duration-ms="1592" started-at="2020-06-24T12:52:00Z" finished-at="2020-06-24T12:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnArrow1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:02Z" finished-at="2020-06-24T12:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnArrow1 status=SUCCESS method=hospitalName.clickOnArrow1()[pri:7, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnHasParking()[pri:8, instance:TestCase.hospitalName@13acb0d1]" name="clickOnHasParking" duration-ms="2304" started-at="2020-06-24T12:52:02Z" finished-at="2020-06-24T12:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHasParking -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:04Z" finished-at="2020-06-24T12:52:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnHasParking status=SUCCESS method=hospitalName.clickOnHasParking()[pri:8, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenshot()[pri:9, instance:TestCase.hospitalName@13acb0d1]" name="screenshot" duration-ms="1595" started-at="2020-06-24T12:52:04Z" finished-at="2020-06-24T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="getOutput()[pri:10, instance:TestCase.hospitalName@13acb0d1]" name="getOutput" duration-ms="436" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOutput -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenshot status=SUCCESS method=hospitalName.screenshot()[pri:9, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getOutput status=SUCCESS method=hospitalName.getOutput()[pri:10, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testcaseWrite()[pri:11, instance:TestCase.hospitalName@13acb0d1]" name="testcaseWrite" duration-ms="185" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseWrite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcaseWrite status=SUCCESS method=hospitalName.testcaseWrite()[pri:11, instance:TestCase.hospitalName@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverexit()[pri:0, instance:TestCase.hospitalName@13acb0d1]" name="driverexit" is-config="true" duration-ms="1223" started-at="2020-06-24T12:52:06Z" finished-at="2020-06-24T12:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- TestCase.hospitalName -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="14597" started-at="2020-06-24T07:22:07Z" finished-at="2020-06-24T07:22:22Z">
+      <class name="TestCase.diagnostics">
+        <test-method status="PASS" signature="testcaseRexl()[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="testcaseRexl" is-config="true" duration-ms="72" started-at="2020-06-24T12:52:07Z" finished-at="2020-06-24T12:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method status="PASS" signature="driverconfig(java.lang.String)[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="driverconfig" is-config="true" duration-ms="7728" started-at="2020-06-24T12:52:08Z" finished-at="2020-06-24T12:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method status="PASS" signature="craeteObject()[pri:1, instance:TestCase.diagnostics@79ca92b9]" name="craeteObject" duration-ms="21" started-at="2020-06-24T12:52:15Z" finished-at="2020-06-24T12:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- craeteObject -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:15Z" finished-at="2020-06-24T12:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=craeteObject status=SUCCESS method=diagnostics.craeteObject()[pri:1, instance:TestCase.diagnostics@79ca92b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnDiagnostics()[pri:2, instance:TestCase.diagnostics@79ca92b9]" name="clickOnDiagnostics" duration-ms="3791" started-at="2020-06-24T12:52:15Z" finished-at="2020-06-24T12:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDiagnostics -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:19Z" finished-at="2020-06-24T12:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnDiagnostics status=SUCCESS method=diagnostics.clickOnDiagnostics()[pri:2, instance:TestCase.diagnostics@79ca92b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenshot()[pri:3, instance:TestCase.diagnostics@79ca92b9]" name="screenshot" duration-ms="559" started-at="2020-06-24T12:52:19Z" finished-at="2020-06-24T12:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="testcaseWrite()[pri:4, instance:TestCase.diagnostics@79ca92b9]" name="testcaseWrite" duration-ms="1012" started-at="2020-06-24T12:52:20Z" finished-at="2020-06-24T12:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseWrite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:20Z" finished-at="2020-06-24T12:52:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenshot status=SUCCESS method=diagnostics.screenshot()[pri:3, instance:TestCase.diagnostics@79ca92b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:21Z" finished-at="2020-06-24T12:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcaseWrite status=SUCCESS method=diagnostics.testcaseWrite()[pri:4, instance:TestCase.diagnostics@79ca92b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverexit()[pri:0, instance:TestCase.diagnostics@79ca92b9]" name="driverexit" is-config="true" duration-ms="1411" started-at="2020-06-24T12:52:21Z" finished-at="2020-06-24T12:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- TestCase.diagnostics -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="14043" started-at="2020-06-24T07:22:22Z" finished-at="2020-06-24T07:22:36Z">
+      <class name="TestCase.errorPage">
+        <test-method status="PASS" signature="testcaseRexl()[pri:0, instance:TestCase.errorPage@1198b989]" name="testcaseRexl" is-config="true" duration-ms="54" started-at="2020-06-24T12:52:22Z" finished-at="2020-06-24T12:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method status="PASS" signature="driverconfig(java.lang.String)[pri:0, instance:TestCase.errorPage@1198b989]" name="driverconfig" is-config="true" duration-ms="7490" started-at="2020-06-24T12:52:22Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method status="PASS" signature="createObject()[pri:1, instance:TestCase.errorPage@1198b989]" name="createObject" duration-ms="15" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createObject status=SUCCESS method=errorPage.createObject()[pri:1, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getParentWindow()[pri:2, instance:TestCase.errorPage@1198b989]" name="getParentWindow" duration-ms="2" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParentWindow -->
+        <test-method status="PASS" signature="clickOnProviders()[pri:3, instance:TestCase.errorPage@1198b989]" name="clickOnProviders" duration-ms="364" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProviders -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getParentWindow status=SUCCESS method=errorPage.getParentWindow()[pri:2, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnProviders status=SUCCESS method=errorPage.clickOnProviders()[pri:3, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnCorporate()[pri:4, instance:TestCase.errorPage@1198b989]" name="clickOnCorporate" duration-ms="340" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCorporate -->
+        <test-method status="PASS" signature="childWindowSwitch()[pri:5, instance:TestCase.errorPage@1198b989]" name="childWindowSwitch" duration-ms="119" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- childWindowSwitch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCorporate status=SUCCESS method=errorPage.clickOnCorporate()[pri:4, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=childWindowSwitch status=SUCCESS method=errorPage.childWindowSwitch()[pri:5, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="firstErrorMessage()[pri:6, instance:TestCase.errorPage@1198b989]" name="firstErrorMessage" duration-ms="2222" started-at="2020-06-24T12:52:30Z" finished-at="2020-06-24T12:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstErrorMessage -->
+        <test-method status="PASS" signature="screenshot()[pri:7, instance:TestCase.errorPage@1198b989]" name="screenshot" duration-ms="1003" started-at="2020-06-24T12:52:33Z" finished-at="2020-06-24T12:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:33Z" finished-at="2020-06-24T12:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstErrorMessage status=SUCCESS method=errorPage.firstErrorMessage()[pri:6, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenshot status=SUCCESS method=errorPage.screenshot()[pri:7, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="secondErrorMessage()[pri:8, instance:TestCase.errorPage@1198b989]" name="secondErrorMessage" duration-ms="309" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondErrorMessage -->
+        <test-method status="PASS" signature="thirdErrorMessage()[pri:9, instance:TestCase.errorPage@1198b989]" name="thirdErrorMessage" duration-ms="296" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdErrorMessage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondErrorMessage status=SUCCESS method=errorPage.secondErrorMessage()[pri:8, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdErrorMessage status=SUCCESS method=errorPage.thirdErrorMessage()[pri:9, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="fourthErrorMessage()[pri:10, instance:TestCase.errorPage@1198b989]" name="fourthErrorMessage" duration-ms="336" started-at="2020-06-24T12:52:34Z" finished-at="2020-06-24T12:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthErrorMessage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fourthErrorMessage status=SUCCESS method=errorPage.fourthErrorMessage()[pri:10, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="fifthErrorMessage()[pri:11, instance:TestCase.errorPage@1198b989]" name="fifthErrorMessage" duration-ms="299" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthErrorMessage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fifthErrorMessage status=SUCCESS method=errorPage.fifthErrorMessage()[pri:11, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testcaseWriteError()[pri:12, instance:TestCase.errorPage@1198b989]" name="testcaseWriteError" duration-ms="38" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseWriteError -->
+        <test-method status="PASS" signature="testcaseWriteJson()[pri:13, instance:TestCase.errorPage@1198b989]" name="testcaseWriteJson" duration-ms="5" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseWriteJson -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcaseWriteError status=SUCCESS method=errorPage.testcaseWriteError()[pri:12, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverexit()[pri:0, instance:TestCase.errorPage@1198b989]" name="driverexit" is-config="true" duration-ms="1141" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.errorPage@1198b989]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T12:52:35Z" finished-at="2020-06-24T12:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcaseWriteJson status=SUCCESS method=errorPage.testcaseWriteJson()[pri:13, instance:TestCase.errorPage@1198b989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.errorPage -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

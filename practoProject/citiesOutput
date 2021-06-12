@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestCases>
+  <Test id="1">
+    <CityName>Bangalore</CityName>
+    <CityName>Delhi</CityName>
+    <CityName>Mumbai</CityName>
+    <CityName>Chennai</CityName>
+    <CityName>Hyderabad</CityName>
+    <CityName>Kolkata</CityName>
+    <CityName>Pune</CityName>
+    <CityName>Ahmedabad</CityName>
+  </Test>
+</TestCases>

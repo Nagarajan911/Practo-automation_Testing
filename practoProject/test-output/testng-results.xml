@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T07:41:40Z" name="Suite" finished-at="2021-06-12T07:42:18Z" duration-ms="38569">
+    <groups>
+      <group name="sanity">
+        <method signature="hospitalName.createObject()[pri:1, instance:TestCase.hospitalName@205d38da]" name="createObject" class="TestCase.hospitalName"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-06-12T07:41:40Z" name="Test" finished-at="2021-06-12T07:42:18Z" duration-ms="38569">
+      <class name="TestCase.hospitalName">
+        <test-method is-config="true" signature="testcaseRexl()[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:40Z" name="testcaseRexl" finished-at="2021-06-12T13:11:40Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:40Z" name="driverconfig" finished-at="2021-06-12T13:11:46Z" duration-ms="6028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method signature="createObject()[pri:1, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:46Z" name="createObject" finished-at="2021-06-12T13:11:46Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:46Z" name="tearDown" finished-at="2021-06-12T13:11:46Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createObject status=SUCCESS method=hospitalName.createObject()[pri:1, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnLocation()[pri:2, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:46Z" name="clickOnLocation" finished-at="2021-06-12T13:11:51Z" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLocation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:51Z" name="tearDown" finished-at="2021-06-12T13:11:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnLocation status=SUCCESS method=hospitalName.clickOnLocation()[pri:2, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectLocation()[pri:3, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:51Z" name="selectLocation" finished-at="2021-06-12T13:11:51Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:51Z" name="tearDown" finished-at="2021-06-12T13:11:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectLocation status=SUCCESS method=hospitalName.selectLocation()[pri:3, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnHospitalTextBox()[pri:4, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:51Z" name="clickOnHospitalTextBox" finished-at="2021-06-12T13:11:53Z" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHospitalTextBox -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:53Z" name="tearDown" finished-at="2021-06-12T13:11:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnHospitalTextBox status=SUCCESS method=hospitalName.clickOnHospitalTextBox()[pri:4, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectHospital()[pri:5, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:53Z" name="selectHospital" finished-at="2021-06-12T13:11:54Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHospital -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:54Z" name="tearDown" finished-at="2021-06-12T13:11:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectHospital status=SUCCESS method=hospitalName.selectHospital()[pri:5, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnOpen()[pri:6, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:11:54Z" name="clickOnOpen" finished-at="2021-06-12T13:12:11Z" duration-ms="17578" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (064d1c2e1eacd28f84d7f3d7ddb71fca)] -> xpath: //body//div[@id='container']//div//div[3]//label[1]//div[1]] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (064d1c2e1eacd28f84d7f3d7ddb71fca)] -> xpath: //body//div[@id='container']//div//div[3]//label[1]//div[1]] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at TestCase.hospitalName.clickOnOpen(hospitalName.java:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body//div[@id='container']//div//div[3]//label[1]//div[1]"}
+  (Session info: chrome=91.0.4472.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SMJLONE', ip: '192.168.42.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\nagar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 064d1c2e1eacd28f84d7f3d7ddb71fca
+*** Element info: {Using=xpath, value=//body//div[@id='container']//div//div[3]//label[1]//div[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOpen -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:11Z" name="tearDown" finished-at="2021-06-12T13:12:12Z" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOpen status=FAILURE method=hospitalName.clickOnOpen()[pri:6, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnArrow1()[pri:7, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:12Z" name="clickOnArrow1" finished-at="2021-06-12T13:12:12Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnArrow1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:12Z" name="tearDown" finished-at="2021-06-12T13:12:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnArrow1 status=SUCCESS method=hospitalName.clickOnArrow1()[pri:7, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnHasParking()[pri:8, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:12Z" name="clickOnHasParking" finished-at="2021-06-12T13:12:15Z" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHasParking -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:15Z" name="tearDown" finished-at="2021-06-12T13:12:15Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnHasParking status=SUCCESS method=hospitalName.clickOnHasParking()[pri:8, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="screenshot()[pri:9, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:15Z" name="screenshot" finished-at="2021-06-12T13:12:16Z" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:16Z" name="tearDown" finished-at="2021-06-12T13:12:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenshot status=SUCCESS method=hospitalName.screenshot()[pri:9, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOutput()[pri:10, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:16Z" name="getOutput" finished-at="2021-06-12T13:12:17Z" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOutput -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:17Z" name="tearDown" finished-at="2021-06-12T13:12:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getOutput status=SUCCESS method=hospitalName.getOutput()[pri:10, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testcaseWrite()[pri:11, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:17Z" name="testcaseWrite" finished-at="2021-06-12T13:12:17Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseWrite -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:17Z" name="tearDown" finished-at="2021-06-12T13:12:17Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcaseWrite status=SUCCESS method=hospitalName.testcaseWrite()[pri:11, instance:TestCase.hospitalName@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:TestCase.hospitalName@205d38da]" started-at="2021-06-12T13:12:17Z" name="driverexit" finished-at="2021-06-12T13:12:18Z" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- TestCase.hospitalName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

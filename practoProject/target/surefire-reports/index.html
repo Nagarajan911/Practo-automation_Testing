@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>F:\JAVA\eclipse\practoProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="childWindowSwitch">childWindowSwitch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="clickOnArrow1">clickOnArrow1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="clickOnCorporate">clickOnCorporate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.diagnostics" hash-for-method="clickOnDiagnostics">clickOnDiagnostics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="clickOnHasParking">clickOnHasParking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="clickOnHospitalTextBox">clickOnHospitalTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="clickOnLocation">clickOnLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="clickOnOpen">clickOnOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="clickOnProviders">clickOnProviders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.diagnostics" hash-for-method="craeteObject">craeteObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="createObject">createObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="createObject">createObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="fifthErrorMessage">fifthErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="firstErrorMessage">firstErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="fourthErrorMessage">fourthErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="getOutput">getOutput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="getParentWindow">getParentWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="screenshot">screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.diagnostics" hash-for-method="screenshot">screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="screenshot">screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="secondErrorMessage">secondErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="selectHospital">selectHospital</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="selectLocation">selectLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.hospitalName" hash-for-method="testcaseWrite">testcaseWrite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.diagnostics" hash-for-method="testcaseWrite">testcaseWrite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="testcaseWriteError">testcaseWriteError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="testcaseWriteJson">testcaseWriteJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase.errorPage" hash-for-method="thirdErrorMessage">thirdErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.hospitalName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnArrow1">
+                  </a> <!-- clickOnArrow1 -->
+                  <span class="method-name">clickOnArrow1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHasParking">
+                  </a> <!-- clickOnHasParking -->
+                  <span class="method-name">clickOnHasParking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHospitalTextBox">
+                  </a> <!-- clickOnHospitalTextBox -->
+                  <span class="method-name">clickOnHospitalTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLocation">
+                  </a> <!-- clickOnLocation -->
+                  <span class="method-name">clickOnLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnOpen">
+                  </a> <!-- clickOnOpen -->
+                  <span class="method-name">clickOnOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createObject">
+                  </a> <!-- createObject -->
+                  <span class="method-name">createObject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getOutput">
+                  </a> <!-- getOutput -->
+                  <span class="method-name">getOutput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshot">
+                  </a> <!-- screenshot -->
+                  <span class="method-name">screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHospital">
+                  </a> <!-- selectHospital -->
+                  <span class="method-name">selectHospital</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLocation">
+                  </a> <!-- selectLocation -->
+                  <span class="method-name">selectLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseWrite">
+                  </a> <!-- testcaseWrite -->
+                  <span class="method-name">testcaseWrite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.diagnostics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnDiagnostics">
+                  </a> <!-- clickOnDiagnostics -->
+                  <span class="method-name">clickOnDiagnostics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="craeteObject">
+                  </a> <!-- craeteObject -->
+                  <span class="method-name">craeteObject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshot">
+                  </a> <!-- screenshot -->
+                  <span class="method-name">screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseWrite">
+                  </a> <!-- testcaseWrite -->
+                  <span class="method-name">testcaseWrite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.errorPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="childWindowSwitch">
+                  </a> <!-- childWindowSwitch -->
+                  <span class="method-name">childWindowSwitch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCorporate">
+                  </a> <!-- clickOnCorporate -->
+                  <span class="method-name">clickOnCorporate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnProviders">
+                  </a> <!-- clickOnProviders -->
+                  <span class="method-name">clickOnProviders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createObject">
+                  </a> <!-- createObject -->
+                  <span class="method-name">createObject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fifthErrorMessage">
+                  </a> <!-- fifthErrorMessage -->
+                  <span class="method-name">fifthErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstErrorMessage">
+                  </a> <!-- firstErrorMessage -->
+                  <span class="method-name">firstErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fourthErrorMessage">
+                  </a> <!-- fourthErrorMessage -->
+                  <span class="method-name">fourthErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getParentWindow">
+                  </a> <!-- getParentWindow -->
+                  <span class="method-name">getParentWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshot">
+                  </a> <!-- screenshot -->
+                  <span class="method-name">screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondErrorMessage">
+                  </a> <!-- secondErrorMessage -->
+                  <span class="method-name">secondErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseWriteError">
+                  </a> <!-- testcaseWriteError -->
+                  <span class="method-name">testcaseWriteError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseWriteJson">
+                  </a> <!-- testcaseWriteJson -->
+                  <span class="method-name">testcaseWriteJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdErrorMessage">
+                  </a> <!-- thirdErrorMessage -->
+                  <span class="method-name">thirdErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\JAVA\eclipse\practoProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utility.FailureRetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.hospitalName&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.diagnostics&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.errorPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickOnLocation')
+data.setCell(0, 2, 'TestCase.hospitalName')
+data.setCell(0, 3, 4330);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectHospital')
+data.setCell(1, 2, 'TestCase.hospitalName')
+data.setCell(1, 3, 4270);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnDiagnostics')
+data.setCell(2, 2, 'TestCase.diagnostics')
+data.setCell(2, 3, 3791);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnHasParking')
+data.setCell(3, 2, 'TestCase.hospitalName')
+data.setCell(3, 3, 2304);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'firstErrorMessage')
+data.setCell(4, 2, 'TestCase.errorPage')
+data.setCell(4, 3, 2222);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnOpen')
+data.setCell(5, 2, 'TestCase.hospitalName')
+data.setCell(5, 3, 2191);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnHospitalTextBox')
+data.setCell(6, 2, 'TestCase.hospitalName')
+data.setCell(6, 3, 2151);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'screenshot')
+data.setCell(7, 2, 'TestCase.hospitalName')
+data.setCell(7, 3, 1595);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickOnArrow1')
+data.setCell(8, 2, 'TestCase.hospitalName')
+data.setCell(8, 3, 1592);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcaseWrite')
+data.setCell(9, 2, 'TestCase.diagnostics')
+data.setCell(9, 3, 1012);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'screenshot')
+data.setCell(10, 2, 'TestCase.errorPage')
+data.setCell(10, 3, 1003);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'screenshot')
+data.setCell(11, 2, 'TestCase.diagnostics')
+data.setCell(11, 3, 559);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getOutput')
+data.setCell(12, 2, 'TestCase.hospitalName')
+data.setCell(12, 3, 436);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOnProviders')
+data.setCell(13, 2, 'TestCase.errorPage')
+data.setCell(13, 3, 364);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickOnCorporate')
+data.setCell(14, 2, 'TestCase.errorPage')
+data.setCell(14, 3, 340);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'fourthErrorMessage')
+data.setCell(15, 2, 'TestCase.errorPage')
+data.setCell(15, 3, 336);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'selectLocation')
+data.setCell(16, 2, 'TestCase.hospitalName')
+data.setCell(16, 3, 332);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'secondErrorMessage')
+data.setCell(17, 2, 'TestCase.errorPage')
+data.setCell(17, 3, 309);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'fifthErrorMessage')
+data.setCell(18, 2, 'TestCase.errorPage')
+data.setCell(18, 3, 299);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'thirdErrorMessage')
+data.setCell(19, 2, 'TestCase.errorPage')
+data.setCell(19, 3, 296);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testcaseWrite')
+data.setCell(20, 2, 'TestCase.hospitalName')
+data.setCell(20, 3, 185);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'childWindowSwitch')
+data.setCell(21, 2, 'TestCase.errorPage')
+data.setCell(21, 3, 119);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'createObject')
+data.setCell(22, 2, 'TestCase.hospitalName')
+data.setCell(22, 3, 64);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testcaseWriteError')
+data.setCell(23, 2, 'TestCase.errorPage')
+data.setCell(23, 3, 38);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'craeteObject')
+data.setCell(24, 2, 'TestCase.diagnostics')
+data.setCell(24, 3, 21);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'createObject')
+data.setCell(25, 2, 'TestCase.errorPage')
+data.setCell(25, 3, 15);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testcaseWriteJson')
+data.setCell(26, 2, 'TestCase.errorPage')
+data.setCell(26, 3, 5);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getParentWindow')
+data.setCell(27, 2, 'TestCase.errorPage')
+data.setCell(27, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.hospitalName</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">testcaseRexl</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">driverconfig(chrome)</span>
+                <span class="method-start">1066 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createObject</span>
+                <span class="method-start">10683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnLocation</span>
+                <span class="method-start">10748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createObject status=SUCCESS method=hospitalName.createObject()[pri:1, instance:Test...)</span>
+                <span class="method-start">10748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnLocation status=SUCCESS method=hospitalName.clickOnLocation()[pri:2, instanc...)</span>
+                <span class="method-start">15078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectLocation</span>
+                <span class="method-start">15079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnHospitalTextBox</span>
+                <span class="method-start">15411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectLocation status=SUCCESS method=hospitalName.selectLocation()[pri:3, instance:...)</span>
+                <span class="method-start">15411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectHospital</span>
+                <span class="method-start">17562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnHospitalTextBox status=SUCCESS method=hospitalName.clickOnHospitalTextBox()[...)</span>
+                <span class="method-start">17562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectHospital status=SUCCESS method=hospitalName.selectHospital()[pri:5, instance:...)</span>
+                <span class="method-start">21832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnOpen</span>
+                <span class="method-start">21833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnArrow1</span>
+                <span class="method-start">24024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnOpen status=SUCCESS method=hospitalName.clickOnOpen()[pri:6, instance:TestCa...)</span>
+                <span class="method-start">24024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnArrow1 status=SUCCESS method=hospitalName.clickOnArrow1()[pri:7, instance:Te...)</span>
+                <span class="method-start">25616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnHasParking</span>
+                <span class="method-start">25617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshot</span>
+                <span class="method-start">27921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnHasParking status=SUCCESS method=hospitalName.clickOnHasParking()[pri:8, ins...)</span>
+                <span class="method-start">27921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getOutput</span>
+                <span class="method-start">29516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=screenshot status=SUCCESS method=hospitalName.screenshot()[pri:9, instance:TestCase...)</span>
+                <span class="method-start">29516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=getOutput status=SUCCESS method=hospitalName.getOutput()[pri:10, instance:TestCase....)</span>
+                <span class="method-start">29953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseWrite</span>
+                <span class="method-start">29953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">30138 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testcaseWrite status=SUCCESS method=hospitalName.testcaseWrite()[pri:11, instance:T...)</span>
+                <span class="method-start">30138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.diagnostics</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">testcaseRexl</span>
+                <span class="method-start">31382 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">driverconfig(firefox)</span>
+                <span class="method-start">31454 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">craeteObject</span>
+                <span class="method-start">39182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=craeteObject status=SUCCESS method=diagnostics.craeteObject()[pri:1, instance:TestC...)</span>
+                <span class="method-start">39203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnDiagnostics</span>
+                <span class="method-start">39204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnDiagnostics status=SUCCESS method=diagnostics.clickOnDiagnostics()[pri:2, in...)</span>
+                <span class="method-start">42995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">screenshot</span>
+                <span class="method-start">42996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=screenshot status=SUCCESS method=diagnostics.screenshot()[pri:3, instance:TestCase....)</span>
+                <span class="method-start">43555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseWrite</span>
+                <span class="method-start">43555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testcaseWrite status=SUCCESS method=diagnostics.testcaseWrite()[pri:4, instance:Tes...)</span>
+                <span class="method-start">44567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">44568 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.errorPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">testcaseRexl</span>
+                <span class="method-start">45982 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">driverconfig(chrome)</span>
+                <span class="method-start">46036 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createObject</span>
+                <span class="method-start">53526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createObject status=SUCCESS method=errorPage.createObject()[pri:1, instance:TestCas...)</span>
+                <span class="method-start">53541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getParentWindow</span>
+                <span class="method-start">53542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnProviders</span>
+                <span class="method-start">53544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=getParentWindow status=SUCCESS method=errorPage.getParentWindow()[pri:2, instance:T...)</span>
+                <span class="method-start">53544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnProviders status=SUCCESS method=errorPage.clickOnProviders()[pri:3, instance...)</span>
+                <span class="method-start">53908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnCorporate</span>
+                <span class="method-start">53909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">childWindowSwitch</span>
+                <span class="method-start">54250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnCorporate status=SUCCESS method=errorPage.clickOnCorporate()[pri:4, instance...)</span>
+                <span class="method-start">54250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">firstErrorMessage</span>
+                <span class="method-start">54370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=childWindowSwitch status=SUCCESS method=errorPage.childWindowSwitch()[pri:5, instan...)</span>
+                <span class="method-start">54370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">screenshot</span>
+                <span class="method-start">56593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=firstErrorMessage status=SUCCESS method=errorPage.firstErrorMessage()[pri:6, instan...)</span>
+                <span class="method-start">56593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=screenshot status=SUCCESS method=errorPage.screenshot()[pri:7, instance:TestCase.er...)</span>
+                <span class="method-start">57596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">secondErrorMessage</span>
+                <span class="method-start">57597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=secondErrorMessage status=SUCCESS method=errorPage.secondErrorMessage()[pri:8, inst...)</span>
+                <span class="method-start">57907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">thirdErrorMessage</span>
+                <span class="method-start">57907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=thirdErrorMessage status=SUCCESS method=errorPage.thirdErrorMessage()[pri:9, instan...)</span>
+                <span class="method-start">58203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fourthErrorMessage</span>
+                <span class="method-start">58204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=fourthErrorMessage status=SUCCESS method=errorPage.fourthErrorMessage()[pri:10, ins...)</span>
+                <span class="method-start">58540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fifthErrorMessage</span>
+                <span class="method-start">58541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=fifthErrorMessage status=SUCCESS method=errorPage.fifthErrorMessage()[pri:11, insta...)</span>
+                <span class="method-start">58840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseWriteError</span>
+                <span class="method-start">58841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testcaseWriteError status=SUCCESS method=errorPage.testcaseWriteError()[pri:12, ins...)</span>
+                <span class="method-start">58879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseWriteJson</span>
+                <span class="method-start">58879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">58884 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testcaseWriteJson status=SUCCESS method=errorPage.testcaseWriteJson()[pri:13, insta...)</span>
+                <span class="method-start">58884 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
